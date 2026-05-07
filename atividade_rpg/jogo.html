@@ -1,64 +1,73 @@
 <html>
-    <head>
-           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-            <div class="card">
-                <!-- Cabeçalho e título do RPG -->
-                <div class="card-header text-center">
-                    Resenha do Water-Polo - Criado por Caio Moniz
-                </div>
-                <!-- Tela Central do Jogo -->
-                <div class="card-body">
-                    <div class="row">
-                        <!-- Status do Herói-->
-                        <div class="col">
-                            <ul class="list-group float-end text-center" style="width: 225px;">
-                                <li class="list-group-item">João Oliveira</li>
-                                <li class="list-group-item">Herói</li>
-                                <li class="list-group-item">
-                                    ❤️
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Cabeçalho e título do RPG -->
+            <div class="card-header text-center">
+                Resenha do Water-Polo - Criado por Caio Moniz
+            </div>
+            <!-- Tela Central do Jogo -->
+            <div class="card-body" style="background-image: url('assets/background battle.png');
+                 background-size: cover;">
+                <div class="row">
+                    <!-- Status do Herói-->
+                    <div class="col">
+                        <ul class="list-group float-end text-center" style="width: 225px;">
+                            <li class="list-group-item">João Oliveira</li>
+                            <li class="list-group-item">Herói</li>
+                            <li class="list-group-item">
+                                ❤️
                                 <progress value="100" style="accent-color: red;"></progress>
                             </li>
-                                <li class="list-group-item">
-                                    🧪
+                            <li class="list-group-item">
+                                🧪
                                 <progress value="100"></progress>
                             </li>
-                                <li class="list-group-item">
-                                    ⚡
+                            <li class="list-group-item">
+                                ⚡
                                 <progress value="0" max="100" style="accent-color: orange;"></progress>
                             </li>
-                                 </ul>
-                        </div>
-                        <!-- Status do Chefão-->
-                        <div class="col">
-                            <ul class="list-group float-start text-center" style="width: 225px;">
-                                <li class="list-group-item">Pep Cool</li>
-                                <li class="list-group-item">Chefão</li>
-                                <li class="list-group-item">
-                                    ❤️
+                        </ul>
+                    </div>
+                    <!-- Status do Chefão-->
+                    <div class="col">
+                        <ul class="list-group float-start text-center" style="width: 225px;">
+                            <li class="list-group-item">Pep Cool</li>
+                            <li class="list-group-item">Chefão</li>
+                            <li class="list-group-item">
+                                ❤️
                                 <progress value="100" style="accent-color: red;"></progress>
                             </li>
-                                <li class="list-group-item">
-                                    🧪
+                            <li class="list-group-item">
+                                🧪
                                 <progress value="100"></progress>
                             </li>
-                                <li class="list-group-item">
-                                    ⚡
+                            <li class="list-group-item">
+                                ⚡
                                 <progress value="0" max="100" style="accent-color: orange;"></progress>
                             </li>
-                                 </ul>
-                                </div>
-                    </div> <!-- Fim do row -->
-                    <div class="row">
+                        </ul>
+                    </div>
+                </div> <!-- Fim do row -->
+                <div class="row">
                     <!-- IMG HERÓI -->
-                    <div class="col"></div>
+                    <div class="col text-end"><img src="assets/batman-pixel-art.gif" width="200" height="200" /></div>
                     <!-- IMG BOSS -->
-                    <div class="col"></div>
+                    <div class="col"><img src="assets/doctor.strange.gif" width="200" height="200" /></div>
                 </div>
-                <div class="card-footer"></div>
+            </div>
+            <div class="card-footer text-center">
+                <small class="text-muted"> Ações do Herói</small>
+                <p></p>
+                <small class="text-muted"> Ações do Chefão</small>
+            </div>
         </div> <!-- Fechamento da card -->
-      </div> <!-- Fechamento do container -->
-    </body>
+    </div> <!-- Fechamento do container -->
+</body>
+
 </html>
